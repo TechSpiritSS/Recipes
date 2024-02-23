@@ -12,11 +12,6 @@
     <!--      <h3>Choose a recipe</h3>-->
     <!--    </ng-template>-->
 
-    @if (selectedRecipe) {
-      <app-recipe-detail [recipe]="selectedRecipe"></app-recipe-detail>
-    } @else {
-      <h3>Choose a recipe</h3>
-    }
-
+   <router-outlet/>
   </div>
 </div>
